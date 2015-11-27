@@ -7,7 +7,7 @@ Simple Server &amp; Client Socket written in Python
 
 ```
 $ python server.py
-Server listening on tcp://0.0.0.0:13128
+Server listening on 0.0.0.0:13128
 
 Client connected: ('127.0.0.1', 64991)
 Connect counter:  1

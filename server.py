@@ -57,7 +57,7 @@ sock.bind((HOST, PORT))
 sock.listen(MAX_CLI)
 
 
-print 'Server listening on tcp://' + HOST + ':' + str(PORT) + "\n"
+print 'Server listening on ' + HOST + ':' + str(PORT) + "\n"
 
 # Keep Listen
 count = 1

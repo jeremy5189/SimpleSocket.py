@@ -4,6 +4,12 @@
 import socket as SocketService
 import sys
 
+# Check for empty command line arguments
+if len(sys.argv) < 3:
+	print 'Usage:   python client.py [host] [port]'
+	print 'Example: python client.py 127.0.0.1 13128'
+	exit(0)
+
 HOST    = sys.argv[1]
 PORT    = int(sys.argv[2])
 
